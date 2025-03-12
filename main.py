@@ -11,14 +11,14 @@ class Calculator(QWidget):
 
     def initUI(self):
         self. te1 = QPlainTextEdit()
-        self. tel.setReadOnly(True)
+        self. te1.setReadOnly(True)
         self. btn1=QPushButton('Message', self)
         self. btn1. clicked. connect(self.activateMessage)
         self. btn2=QPushButton('Clear',self)
         self. btn2.clicked.connect(self.clearMessage) 
 
         hbox = QHBoxLayout()
-        hbox.addStrecth(1)
+        hbox.addStretch(1)
         hbox.addWidget(self.btn1)
         hbox.addWidget(self.btn2)
 
